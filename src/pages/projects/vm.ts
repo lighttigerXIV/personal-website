@@ -62,11 +62,7 @@ export function getProjectsWithStars(onFinish: ProjectWithStarsCallback){
 
 
     projects.forEach((project)=>{
-        axios.get("https://api.github.com/repos/" + project.gitName, {
-            headers:{
-                Authorization: "Bearer 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"
-            }
-        })
+        axios.get("https://api.github.com/repos/" + project.gitName)
         .then((response) => {
             project.stars = response.data.stargazers_count;
 
