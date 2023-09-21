@@ -3,6 +3,7 @@ import { useRouter } from "vue-router";
 import icon from "../../components/icon.vue"
 import { onMounted, ref } from "vue";
 import { getAudioUrl } from "@/main-viewmodel"
+import { SONGS } from "./vm";
 
 const router = useRouter();
 const logoRef = ref();
@@ -25,15 +26,8 @@ async function playRandomSong() {
             return
         }
     } else {
-        var song = "";
         let random = Math.floor(Math.random() * 4);
-
-        switch (random) {
-            case 0: { song = "can-you-feel-my-heart.mp3"; break }
-            case 1: { song = "lost-my-love-to-you.mp3"; break }
-            case 2: { song = "nanana.mp3"; break }
-            default: { song = "to-the-last-drop-of-blood.mp3"; break }
-        }
+        let song = SONGS[random];
 
         audio.value = new Audio(getAudioUrl(song));
         audio.value.volume = 0.3;
