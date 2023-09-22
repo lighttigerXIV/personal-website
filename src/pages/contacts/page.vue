@@ -44,10 +44,24 @@ function copy(text: string) {
                         <Icon name="link" class="h-8 w-8 stroke-text stroke-2" />
                     </div>
                 </button>
+                <button class="contactsCard hover:bg-mantle w-full mt-1" @click="openLink('https://www.linkedin.com/in/afonso-fonseca-995014163')">
+                    <div class="flex items-center">
+                        <Icon name="linkedin" class="h-8 w-8" />
+                        <p class="ml-4 flex-grow text-start">Linkedin</p>
+                        <Icon name="link" class="h-8 w-8 stroke-text stroke-2" />
+                    </div>
+                </button>
                 <button class="contactsCard hover:bg-mantle w-full mt-1" @click="openLink('https://discord.com/users/598945126089228327')">
                     <div class="flex items-center">
                         <Icon name="discord" class="h-8 w-8" />
                         <p class="ml-4 flex-grow text-start">Discord</p>
+                        <Icon name="link" class="h-8 w-8 stroke-text stroke-2" />
+                    </div>
+                </button>
+                <button class="contactsCard hover:bg-mantle w-full mt-1" @click="openLink('https://anilist.co/user/lighttigerxiv/')">
+                    <div class="flex items-center">
+                        <Icon name="anilist" class="h-8 w-8" />
+                        <p class="ml-4 flex-grow text-start">AniList</p>
                         <Icon name="link" class="h-8 w-8 stroke-text stroke-2" />
                     </div>
                 </button>
