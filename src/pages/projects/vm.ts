@@ -19,12 +19,28 @@ export let projects: Project[] = [
         tags: ["Android"]
     },
     {
+        name: "Simple Keyboard Launcher",
+        image: "simple-kl.png",
+        url: "https://github.com/lighttigerXIV/simple-keyboard-launcher",
+        gitName: "lighttigerXIV/simple-keyboard-launcher",
+        stars: "?",
+        tags: ["Linux", "Windows"]
+    },
+    {
         name: "Catppuccinifier",
         image: "catppuccinifier.png",
         url: "https://github.com/lighttigerXIV/catppuccinifier",
         gitName: "lighttigerXIV/catppuccinifier",
         stars: "?",
         tags: ["Linux", "Windows"]
+    },
+    {
+        name: "Bookmarks",
+        image: "bookmarks.png",
+        url: "https://github.com/lighttigerXIV/bookmarks",
+        gitName: "lighttigerXIV/bookmarks",
+        stars: "?",
+        tags: ["Android"]
     },
     {
         name: "Terminal Runner",
