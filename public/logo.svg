@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="158.69707mm"
+   height="158.69707mm"
+   viewBox="0 0 158.69707 158.69707"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="translate(-30.252082,-16.845596)">
+    <circle
+       style="fill:#24273a;fill-opacity:1;stroke:#24273a;stroke-width:4.9366;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:7;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       id="path3"
+       cx="109.60062"
+       cy="96.19413"
+       r="76.880234" />
+    <text
+       xml:space="preserve"
+       style="font-size:51.5219px;fill:none;fill-opacity:1;stroke:#eed49f;stroke-width:6.01088;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:7;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
+       x="46.414124"
+       y="114.06764"
+       id="text3"><tspan
+         id="tspan3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Inter Nerd Font Propo';-inkscape-font-specification:'Inter Nerd Font Propo';fill:none;fill-opacity:1;stroke:#eed49f;stroke-width:6.01088;stroke-dasharray:none;stroke-opacity:1"
+         x="46.414124"
+         y="114.06764">LT 14</tspan></text>
+  </g>
+</svg>
