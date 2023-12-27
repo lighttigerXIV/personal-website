@@ -62,7 +62,6 @@ export class ViewModel {
     }
 
     async getProjectStars(project: Project): Promise<string> {
-        return "-";
         try {
             const response = await axios.get("https://api.github.com/repos/" + project.gitName);
             return response.data.stargazers_count;
@@ -113,6 +112,14 @@ export let ANDROID_PROJECTS: Project[] = [
         url: "https://github.com/lighttigerXIV/SimpleMP-Compose",
         gitName: "lighttigerXIV/SimpleMP-Compose",
         stars: "-"
+    },
+    {
+        name: "Bookmarks",
+        image: "bookmarks.png",
+        description: " An Android app to quickly open urls on your browser",
+        url: "https://github.com/lighttigerXIV/bookmarks",
+        gitName: "lighttigerXIV/bookmarks",
+        stars: "-"
     }
 ]
 
@@ -138,7 +145,7 @@ export let PC_PROJECTS: Project[] = [
 export let WEB_PROJECTS: Project[] = [
     {
         name: "Personal Website",
-        image: "personal-website.png",
+        image: "personal-website.jpg",
         description: "The website you are seeing",
         url: "https://github.com/lighttigerXIV/personal-website",
         gitName: "lighttigerXIV/personal-website",
