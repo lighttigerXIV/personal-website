@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -7,24 +7,22 @@
 
 @layer{
   .light-theme{
-    --base: #eff1f5;
-    --text: #4c4f69;
-    --crust: #dce0e8;
-    --mantle: #e6e9ef;
-    --yellow: #df8e1d;
+    --background: #FFFEEE;
+    --backgroundTwo: #FFF8E0;
+    --backgroundThree: #FFF0BA;
+    --onBackground: #323000;
   }
 
   .dark-theme{
-    --base: #24273a;
-    --text: #cad3f5;
-    --crust: #181926;
-    --mantle: #1e2030;
-    --yellow: #eed49f;
+    --background: #252400;
+    --backgroundTwo: #2C2A00;
+    --backgroundThree: #403D00;
+    --onBackground: #E8E493;
   }
 }
 
 *{
-  color: theme("colors.text");
+  color: theme("colors.onBackground");
   font-weight: 600;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Figtree', sans-serif;
 }

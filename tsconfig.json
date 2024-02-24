@@ -25,11 +25,10 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
-      "@icons/*": ["src/assets/icons/*"],
-      "@images/*": ["src/assets/images/*"],
-      "@audio/*": ["src/assets/audio/*"],
-      "@pages/*": ["src/pages/*"],
-      "@components/*": ["src/components/*"],
+      "@icons/*": ["src/Assets/Icons/*"],
+      "@images/*": ["src/Assets/Images/*"],
+      "@pages/*": ["src/Pages/*"],
+      "@components/*": ["src/Components/*"],
     }
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],

@@ -1,16 +1,20 @@
-import "@/root.css"
-import Root from "@/root.vue"
-import App from "./pages/app/app.vue";
+import "@/root.css";
+import Root from "@/RootPage.vue";
 import { createApp } from "vue";
-import { createRouter, createWebHistory } from "vue-router"
+import { createRouter, createWebHistory } from "vue-router";
+import RootPage from "@/RootPage.vue";
 
 const routes = [
-    { path: "/", name: "home", component: App },
-]
+  {
+    path: "/",
+    name: "home",
+    component: RootPage,
+  },
+];
 
 const router = createRouter({
-    history: createWebHistory(),
-    routes,
+  history: createWebHistory(),
+  routes,
 });
 
 const app = createApp(Root);

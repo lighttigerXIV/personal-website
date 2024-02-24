@@ -7,17 +7,10 @@ export default {
   theme: {
     extend: {
       colors:{
-        "base": "var(--base)",
-        "text": "var(--text)",
-        "crust": "var(--crust)",
-        "mantle": "var(--mantle)",
-        "yellow": "var(--yellow)",
-      },
-      padding:{
-        large: "16px"
-      },
-      fontSize:{
-        "extra-large": "40px"
+        "background": "var(--background)",
+        "backgroundTwo": "var(--backgroundTwo)",
+        "backgroundThree": "var(--backgroundThree)",
+        "onBackground": "var(--onBackground)"
       }
     },
   },

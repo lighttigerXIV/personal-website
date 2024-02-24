@@ -8,11 +8,10 @@ export default defineConfig({
   resolve:{
     alias:{
       "@": path.resolve(__dirname, "./src"),
-      "@icons": path.resolve(__dirname, "./src/assets/icons"),
-      "@images": path.resolve(__dirname, "./src/assets/images"),
-      "@audio": path.resolve(__dirname, "./src/assets/audio"),
-      "@pages": path.resolve(__dirname, "./src/pages"),
-      "@components": path.resolve(__dirname, "./src/components")
+      "@icons": path.resolve(__dirname, "./src/Assets/Icons"),
+      "@images": path.resolve(__dirname, "./src/Assets/Images"),
+      "@pages": path.resolve(__dirname, "./src/Pages"),
+      "@components": path.resolve(__dirname, "./src/Components")
     }
   },
 })
