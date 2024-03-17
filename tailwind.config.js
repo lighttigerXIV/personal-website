@@ -8,9 +8,8 @@ export default {
     extend: {
       colors:{
         "background": "var(--background)",
-        "backgroundTwo": "var(--backgroundTwo)",
-        "backgroundThree": "var(--backgroundThree)",
-        "onBackground": "var(--onBackground)"
+        "accent": "var(--accent)",
+        "text": "var(--text)",
       }
     },
   },
