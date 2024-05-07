@@ -23,7 +23,7 @@
 
 		axios
 			.get(
-				'http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=lighttigerxiv&api_key=fe1b7799072f646b80fdb37a8ef26d42&format=json&limit=1'
+				'https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=lighttigerxiv&api_key=fe1b7799072f646b80fdb37a8ef26d42&format=json&limit=1'
 			)
 			.then((response) => {
 				song.coverUrl = response.data.recenttracks.track[0].image[2]['#text'];
