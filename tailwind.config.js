@@ -3,15 +3,16 @@ export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
 		extend: {
-			colors:{
-				"neutral-two":"#FFF9F0",
-				"neutral-four": "#FFF3E2",
-				"neutral-six":"#FFF0DA",
-				"neutral-eight":"#FFECCF",
-				"text":"#3E1900",
-				"cherry": "#B43A2A",
-				"kiwi": "#6A9534",
-				"banana": "#A87B0A"
+			colors: {
+				neutral: 'var(--neutral)',
+				'neutral-two': 'var(--neutral-two)',
+				'neutral-four': 'var(--neutral-four)',
+				'neutral-eight': 'var(--neutral-eight)',
+				text: 'var(--text)',
+				'text-two': 'var(--text-two)',
+				banana: 'var(--banana)',
+				kiwi: 'var(--kiwi)',
+				cherry: 'var(--cherry)'
 			}
 		}
 	},

@@ -2,9 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+	:root {
+		--neutral: #000;
+		--neutral-two: #0e0600;
+		--neutral-four: #1b0b00;
+		--neutral-eight: #502000;
+		--text: #ffeee2;
+		--text-two: #e5d2c5;
+		--banana: #ffe072;
+		--kiwi: #b1e380;
+		--cherry: #ff8c7c;
+	}
+	.light-theme {
+		--neutral: #fffcf8;
+		--neutral-two: #fff9f0;
+		--neutral-four: #fff3e2;
+		--neutral-eight: #ffeccf;
+		--text: #3e1900;
+		--text-two: #865c3a;
+		--banana: #a87b0a;
+		--kiwi: #6a9534;
+		--cherry: #b43a2a;
+	}
+}
+
 * {
-	font-weight: 500;
 	font-family: 'Figtree', sans-serif;
 	font-style: normal;
-    font-size: 1.05rem;
+	font-size: 1.05rem;
+}
+
+.bg-gradient {
+	background: rgb(14, 6, 0);
+	background: linear-gradient(145deg, var(--neutral-two) 0%, var(--neutral) 100%);
 }
